@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gabuyo, Jhon Francis B.</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <header>
+        <div class="portfolio-hero">
+            <div class="portfolio-menu">
+                <ul class="nav-menu">
+                    <li class="menu-item"><a href="#">Home</a></li>
+                    <li class="menu-item"><a href="#about">About Me</a></li>
+                    <li class="menu-item"><a href="#skills">Skills</a></li>
+                    <li class="menu-item"><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="portfolio-profile">
+                    <img alt="profile-pic" src="../dist/img/me.jpg">
+                    <h1>Gabuyo, Jhon Francis B.</h1>
+                    <h2>Gabby Gab's</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="about">
+            <h2>About Me</h2>
+            <p>Hi i'm Jhon Francis Gabuyo, you can call me gabby or gabs.</p>
+        </div>
+        <div id="skills">
+            <h2> Skills</h2>
+            <div class="skill-main-grid">
+                <div class="skill-grid1">
+                    <h3>Computer Skill</h3>
+                    <p>Computer skill are the ability to utilize computers and technology efficiently. With the rise of technology, the computer skills you have can set you apart when applying for a new job. ... Every professional position requires the use of certain technology, ranging from hardware to computer applications.</p>
+                </div>
+                <div class="skill-grid2">
+                        <h3>interpersonal skill</h3>
+                        <p>Interpersonal skill are the behaviors and tactics a person uses to interact with others effectively. In the business world, the term refers to an employee's ability to work well with others. Interpersonal skills range from communication and listening to attitude and deportment.</p>
+                </div>
+                <div class="skill-grid3">
+                        <h3>Time management skill</h3>
+                        <p>Time management is the process of planning and exercising conscious control of time spent on specific activities, especially to increase effectiveness, efficiency, and productivity.</p>
+                </div>
+                <div class="skill-grid4">
+                        <h3>Leadership skill</h3>
+                        <p>Leadership skill are the strengths and abilities individuals demonstrate that help the oversee processes, guide initiatives and steer their employees toward the achievement of goals. ... Valuable leadership skills include the ability to delegate, inspire and communicate effectively.</p>
+                </div>
+            </div>
+            <h2>Programming Languages</h2>
+            <div class="skill-main-grid">
+                <div class="skill-grid1">
+                    <h3>Java</h3>
+                    <p>Java is a high-level programming language developed by Sun Microsystems. It was originally designed for developing programs for set-top boxes and handheld devices, but later became a popular choice for creating web applications.</p>
+                </div>
+                <div class="skill-grid2">
+                        <h3>C++</h3>
+                        <p>C++ is a general-purpose object-oriented programming (OOP) language, developed by Bjarne Stroustrup, and is an extension of the C language. It is therefore possible to code C++ in a "C style" or "object-oriented style." In certain scenarios, it can be coded in either way and is thus an effective example of a hybrid language.</p>
+                </div>
+                <div class="skill-grid3">
+                        <h3>JavaScript</h3>
+                        <p>JavaScript is a dynamic computer programming language. It is lightweight and most commonly used as a part of web pages, whose implementations allow client-side script to interact with the user and make dynamic pages. It is an interpreted programming language with object-oriented capabilities.</p>
+                </div>
+                <div class="skill-grid4">
+                        <h3>HTML</h3>
+                        <p>Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+
+        </div>
+    </main>
+    <footer>
+        <form class="portfolio-form">
+            <h2>Send me a message.</h2>
+            <div class="form-row">
+                <label class="form-label">Subject:</label>
+                <div class="form-input">
+                    <input id="mailSubject" class="form-input-text" type="text">
+                </div>
+            </div>
+            <div class="form-row">
+                <label class="form-label">Message:</label>
+                <div class="form-input">
+                    <textarea id="mailMessage" class="form-input-textarea"></textarea>
+                </div>
+            </div>
+            <div  class="form-submit">
+                <a onmouseover="appendMailTo()" id="sendMail" href="mailto:redlux002@gmail.com" class="btn-submit">Submit</a>
+            </div>
+        </form>
+        <div class="footer">
+            Copyright &copy; <span id="getYear"></span>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
