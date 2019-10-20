@@ -1,0 +1,22 @@
+{
+  "name": "single-page-portfolio",
+  "version": "1.0.0",
+  "description": "single-page-portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redlux002/single-page-portfolio.git"
+  },
+  "author": "Francis Gabuyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redlux002/single-page-portfolio/issues"
+  },
+  "homepage": "https://github.com/redlux002/single-page-portfolio#readme",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
